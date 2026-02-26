@@ -24,4 +24,5 @@ async def on_member_join(member):
         await channel.send(embed=embed)
 
 # تأكد من وضع التوكن الجديد هنا
-bot.run('MTQ3NjI2ODY3NDc4Nzg0MDIwMg.GKtcA-.PAcZdR_J1AEwJu8HCUspB0ECShqLDsJBsA7DY4')
+
+bot.run('MTQ3NjI2ODY3NDc4Nzg0MDIwMg.Gdq9i3.OhfSMcvb6RL15yWtywFHiVjJsrE_dRDYp36OG0')
