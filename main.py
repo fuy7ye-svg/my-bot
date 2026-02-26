@@ -26,3 +26,4 @@ async def on_member_join(member):
 # تأكد من وضع التوكن الجديد هنا
 
 bot.run('MTQ3NjI2ODY3NDc4Nzg0MDIwMg.Gdq9i3.OhfSMcvb6RL15yWtywFHiVjJsrE_dRDYp36OG0')
+
