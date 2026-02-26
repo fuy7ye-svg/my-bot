@@ -23,7 +23,9 @@ async def on_member_join(member):
         embed.set_image(url=member.display_avatar.url)
         await channel.send(embed=embed)
 
-# تأكد من وضع التوكن الجديد هنا
 
-bot.run('MTQ3NjI2ODY3NDc4Nzg0MDIwMg.Gdq9i3.OhfSMcvb6RL15yWtywFHiVjJsrE_dRDYp36OG0')
+import os
 
+# في نهاية الملف استبدل السطر بـ:
+token = os.getenv('DISCORD_TOKEN')
+bot.run(token)
